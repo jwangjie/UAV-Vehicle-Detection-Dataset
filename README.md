@@ -1,5 +1,7 @@
 # UAV-Vehicle-Detection-Dataset
 
+## The whole dataset can also be downloaded at [here](https://drive.google.com/file/d/10rZw87pUsLurctEfLeWgYbj_pYn54S9o/view?usp=sharing).
+
 There are plenty proposed datasets for training CNN based vehicle detector, also many pre-trained weights that can be directly applied for the vehicle detection tasks. Because the majority of the vehicle detections tasks were conducted on or near the ground, these image datasets were collected by ground vehicles or CCTV cameras. However, vehicle detectors trained on these datasets collected by the ground cameras perform badly for the vehicle detections in UAV video applications, image datasets created from UAV videos are needed for creating a reliable traffic monitoring pipeline on UAVs.
 We conducted fine tuning on YOLOv3 using the [aerial-cars-dataset](https://github.com/jekhor/aerial-cars-dataset). The trained CNN vehicle detector recognized most vehicles near the UAV camera, but not vehicles far away from the camera. This is due to the training dataset contains bird's-eye view images only. 
 
@@ -26,3 +28,19 @@ Important command lines:
 **Training:**  `./darknet detector train data/dji.data cfg/yolov3_dji.cfg darknet53.conv.74`
 
 **Testing:**  `./darknet detector demo data/dji.data cfg/yolov3_dji.cfg backup/yolov3_dji_final.weights DJI_0003.MOV -out_filename DJI_0003_dji.avi`
+
+---  
+
+## Reference
+Please kindly cite this paper in your publications if this helps your research:
+
+```
+@article{Wang2019group,
+    title={Orientation- and Scale-Invariant Multi-Vehicle Detection and Tracking from Unmanned Aerial Videos},
+    author={Wang, Jie and Simeonova, Sandra and Shahbazi, Mozhdeh},
+    journal={Remote Sensing},
+    year={2019},
+    doi={10.3390/rs11182155},
+    organization={MDPI}
+    }
+```
