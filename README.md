@@ -5,7 +5,7 @@ We conducted fine tuning on YOLOv3 using the [aerial-cars-dataset](https://githu
 
 Images of the M0606 of [UAV-benchmark-M](https://sites.google.com/site/daviddo0323/projects/uavdt) were added to train the CNN, the improvement was very limited. This is due to the fact that the dataset was created by labeling car near to the cameras only, cars far away from the cameras were ignored. Another reason is images resolution of both [aerial-cars-dataset](https://github.com/jekhor/aerial-cars-dataset) and [UAV-benchmark-M](https://sites.google.com/site/daviddo0323/projects/uavdt) are relatively low (1024x540) compared to our aerial videos (2720x1530). 
 
-A new dataset was created by labeling our UAV video images. The final dataset used for fine tuning YOLOv3 vehicle detector is composed of 156 images from [aerial-cars-dataset](https://github.com/jekhor/aerial-cars-dataset), 1374 images from the [UAV-benchmark-M](https://sites.google.com/site/daviddo0323/projects/uavdt), and our custom labeled 157 images. The complete dataset is provided in dataset1, dataset2, dataset3 and dataset4.
+A new dataset was created by labeling our UAV video images. The final dataset used for fine tuning YOLOv3 vehicle detector is composed of **154** images from [aerial-cars-dataset](https://github.com/jekhor/aerial-cars-dataset), 1374 images from the [UAV-benchmark-M](https://sites.google.com/site/daviddo0323/projects/uavdt), and our custom labeled 157 images. The complete dataset is provided in dataset1, dataset2, dataset3 and dataset4.
 
 Here is the key steps of fine tuning our UAV vehicle detector: 
 
