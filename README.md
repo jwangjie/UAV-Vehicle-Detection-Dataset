@@ -1,7 +1,5 @@
 ## UAV-Vehicle-Detection-Dataset
 
-### The whole dataset can also be downloaded at [here](https://drive.google.com/file/d/10rZw87pUsLurctEfLeWgYbj_pYn54S9o/view?usp=sharing).
-
 ### For step by step fine-tuning the vehicle detector, please refer to [Fine-tune-YOLOv3](https://github.com/jwangjie/Fine-tune-YOLOv3)
 ---
 
@@ -33,6 +31,7 @@ Important command lines:
 **Testing:**  `./darknet detector demo data/dji.data cfg/yolov3_dji.cfg backup/yolov3_dji_final.weights DJI_0003.MOV -out_filename DJI_0003_dji.avi`
 
 ---  
+##### The whole dataset can also be downloaded at [here](https://drive.google.com/file/d/10rZw87pUsLurctEfLeWgYbj_pYn54S9o/view?usp=sharing).
 
 ## Reference
 Please kindly cite this paper in your publications if this helps your research:
