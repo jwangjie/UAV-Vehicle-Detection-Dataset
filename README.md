@@ -38,12 +38,14 @@ Important command lines:
 Please kindly cite this paper in your publications if this helps your research:
 
 ```
-@article{Wang2019group,
-    title={Orientation- and Scale-Invariant Multi-Vehicle Detection and Tracking from Unmanned Aerial Videos},
-    author={Wang, Jie and Simeonova, Sandra and Shahbazi, Mozhdeh},
-    journal={Remote Sensing},
-    year={2019},
-    doi={10.3390/rs11182155},
-    organization={MDPI}
-    }
+@article{wang2019orientation,
+  title={Orientation-and Scale-Invariant Multi-Vehicle Detection and Tracking from Unmanned Aerial Videos},
+  author={Wang, Jie and Simeonova, Sandra and Shahbazi, Mozhdeh},
+  journal={Remote Sensing},
+  volume={11},
+  number={18},
+  pages={2155},
+  year={2019},
+  publisher={Multidisciplinary Digital Publishing Institute}
+}
 ```
