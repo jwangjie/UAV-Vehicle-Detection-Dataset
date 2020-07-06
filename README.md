@@ -1,5 +1,7 @@
 ## UAV-Vehicle-Detection-Dataset
 
+### The fine tuned weights by this dataset can be downloaded at [here](https://drive.google.com/file/d/1xGxTxgevj6UPXTXNsUbt9g3Oogr3pATQ/view?usp=sharing).
+
 ### For step by step fine-tuning the vehicle detector, please refer to [Fine-tune-YOLOv3](https://github.com/jwangjie/Fine-tune-YOLOv3)
 ---
 
